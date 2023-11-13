@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/detailTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notification Title"
+        android:textSize="30sp"
+        android:layout_marginTop="1dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/detailContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notification Content"
+        app:layout_constraintTop_toBottomOf="@+id/detailTitle"
+        android:textSize="15sp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintTop_toTopOf="@+id/detailTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+    <!-- 他にも詳細情報を表示するためのビューを追加できます -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

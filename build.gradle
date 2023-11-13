@@ -1,0 +1,26 @@
+plugins {
+    id 'com.android.application' version '4.2.0'
+    id 'org.jetbrains.kotlin.android' version '1.7.10'
+    // Remove the following line as it is not needed
+    // id 'org.jetbrains.kotlin.jvm' version '1.5.31'
+}
+
+android {
+    compileSdkVersion 34
+    defaultConfig {
+        applicationId "com.example.tuuti4"
+        minSdkVersion 16
+        targetSdkVersion 34 // Update the targetSdkVersion if needed
+        versionCode 1
+        versionName "1.0"
+
+        buildFeatures {
+            viewBinding true
+        }
+    }
+
+    dependencies {
+        implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.31"
+        // Add your other dependencies here
+    }
+}

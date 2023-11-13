@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "616006235142",
+    "project_id": "test-e1ad6",
+    "storage_bucket": "test-e1ad6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616006235142:android:d23f359ddb7a99afb7bf87",
+        "android_client_info": {
+          "package_name": "com.example.tuuti4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2YOoE5x9E581gMxU0zk62s_bsH35s1VQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

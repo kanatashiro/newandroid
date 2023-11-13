@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TUUTI4</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/white</item>
+        <!-- 他のスタイル属性 -->
+    </style>
+
+
+
+</resources>
+
